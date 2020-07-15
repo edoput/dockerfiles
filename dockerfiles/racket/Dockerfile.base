@@ -1,0 +1,6 @@
+FROM docker.io/racket/racket:7.7-full
+
+RUN raco pkg install --auto \
+        binary-class \
+        brag \
+        http-easy \
